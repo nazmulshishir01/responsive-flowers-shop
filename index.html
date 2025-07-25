@@ -9,9 +9,26 @@
   <script src="https://cdn.tailwindcss.com"></script> 
 
   <!-- Add font awesome -->
-  <script src="https://kit.fontawesome.com/68f1e7ce6b.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/68f1e7ce6b.js" crossorigin="anonymous"></script> 
 
+    <!--  Google Font link --> 
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+ <style>
+   
+
+    .noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+  </style>
 
 
 </head>
@@ -40,6 +57,27 @@
   </nav>
 </header> 
 
+<!-- Banner -->
+<section class="flex flex-col-reverse md:flex-row items-center justify-between py-16 px-0 md:px-[150px] gap-10">
+  
+  <div class="w-full md:w-1/2 text-left mt-2 md:mt-40">
+    <h1 class="noto-serif-normal text-4xl md:text-5xl font-bold ml-4 md:ml-0 leading-tight">
+      ALWAYS <span class="text-orange-500">FRESH</span><br>
+      <span class="text-orange-500 block md:mt-2">FLOWERS</span>
+    </h1>
+    <p class="text-lg text-gray-600 ml-4 md:ml-0">
+      Indulge your senses with the beauty and fragrance of our fresh flower shop.
+      From classic roses to exotic blooms, we offer a wide variety of fresh flowers
+      that are perfect for any occasion.
+    </p>
+  </div>
+
+  <!-- Image -->
+  <div class="w-full md:w-1/2">
+    <img src="assets/hero-flower.png" alt="banner"
+      class="w-full h-auto max-h-[500px] object-contain md:object-cover" />
+  </div>
+</section>
 
 
 
